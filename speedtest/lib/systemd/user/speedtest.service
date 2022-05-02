@@ -1,0 +1,7 @@
+[Unit]
+Description=speedtest
+
+[Service]
+Type=simple
+ExecStart=%h/Documents/Projects/systemd-local-user/speedtest/lib/speedtest/speedtest.sh
+StandardOutput=journal

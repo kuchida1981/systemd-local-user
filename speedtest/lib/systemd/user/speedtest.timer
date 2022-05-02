@@ -1,0 +1,8 @@
+[Unit]
+Description=speedtest
+
+[Timer]
+OnCalendar=*:0:00
+
+[Install]
+WantedBy=timers.target
